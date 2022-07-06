@@ -1,6 +1,6 @@
 import './App.css';
 
 function Routing() {
-	return <div>bnma</div>;
+	return <div>bnmaa</div>;
 }
 export default Routing;
