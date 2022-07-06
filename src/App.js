@@ -1,6 +1,6 @@
 import './App.css';
 
 function App() {
-	return <>Bnma</>;
+	return <>Bnma1</>;
 }
 export default App;
