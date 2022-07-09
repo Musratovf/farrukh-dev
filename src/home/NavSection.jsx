@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/main.scss';
 import { Link } from 'react-router-dom';
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 const NavSection = () => {
