@@ -1,15 +1,15 @@
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import './styles/main.scss';
 import Home from './home/Home';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function Routing() {
 	return (
-		<Router>
-			<Link>
-				<Route path='/home' exact component={Home} />
-			</Link>
-		</Router>
+		<>
+			<Routes>
+				<Route path='/' element={<Home />} />
+			</Routes>
+		</>
 	);
 }
 export default Routing;

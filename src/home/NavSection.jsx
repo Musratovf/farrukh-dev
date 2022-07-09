@@ -32,16 +32,16 @@ const NavSection = () => {
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className='ml-auto'>
 						<NavItem>
-							<Link to='/home'>Home</Link>
+							<Link to=''>Home</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/'>Porfolio</Link>
+							<Link to=''>Portfolio</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/'>Setup</Link>
+							<Link to=''>Setup</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/'>About me</Link>
+							<Link to=''>About me</Link>
 						</NavItem>
 					</Nav>
 				</Collapse>
