@@ -1,6 +1,5 @@
 import React from 'react';
 import NavSection from './NavSection';
-
 const Home = () => {
 	return (
 		<>
