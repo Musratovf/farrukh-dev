@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import db from '../firebase/config';
+import db from '../firebase/Config';
 
 const AboutInfo = () => {
 	const [portfolios, setPortfolios] = useState([]);
@@ -10,14 +10,14 @@ const AboutInfo = () => {
 	}, []);
 	return (
 		<div className='aboutInfo'>
-			{portfolios.map((portfolios) => {
+			{portfolios.map((portfolio) => {
 				<>
 					<div className='side1'>
-						<img src={portfolios.img} alt='me image' />
+						<img src={portfolio.image} alt='me image' />
 					</div>
 					<div className='side2'>
-						<h1>{portfolios.title}</h1>
-						<p>{portfolios.description}</p>
+						<h1>{portfolio.title}</h1>
+						<p>{portfolio.description}</p>
 					</div>
 				</>;
 			})}
