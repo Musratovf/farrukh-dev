@@ -8,16 +8,17 @@ const AboutInfo = () => {
 			setPortfolios(snapshot.docs.map((doc) => doc.data()))
 		);
 	}, []);
+
 	return (
 		<div className='aboutInfo'>
-			{portfolios.map((portfolio) => {
+			{portfolios.map((portfolia) => {
 				<>
 					<div className='side1'>
-						<img src={portfolio.image} alt='me image' />
+						<img src={portfolia.image} alt='me image' />
 					</div>
 					<div className='side2'>
-						<h1>{portfolio.title}</h1>
-						<p>{portfolio.description}</p>
+						<h1>{portfolia.title}</h1>
+						<p>{portfolia.description}</p>
 					</div>
 				</>;
 			})}

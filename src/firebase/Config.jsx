@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 const firebaseConfig = {
-	apiKey: 'AIzaSyCFVemM2kNYQ9Aa_9_WLTWJF6QN4CxtNXk',
-	authDomain: 'portfolia-website-6d26e.firebaseapp.com',
-	projectId: 'portfolia-website-6d26e',
-	storageBucket: 'portfolia-website-6d26e.appspot.com',
-	messagingSenderId: '584644557441',
-	appId: '1:584644557441:web:705069d66d1e27dd40eb80',
-	measurementId: 'G-122V3SFK7R',
+	apiKey: 'AIzaSyBxDGu_a1QUVrXgZ6MCaS07BGNQ-Jd6_lw',
+	authDomain: 'portfolio-ffa0e.firebaseapp.com',
+	projectId: 'portfolio-ffa0e',
+	storageBucket: 'portfolio-ffa0e.appspot.com',
+	messagingSenderId: '453928869617',
+	appId: '1:453928869617:web:802318e62f3b91b0f21350',
+	measurementId: 'G-BLLTDMJJ9J',
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
