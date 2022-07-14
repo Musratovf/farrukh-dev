@@ -7,8 +7,11 @@ const AboutInfo = () => {
 
 	const handleAdd = async (e) => {
 		const res = await addDoc(collection(db, 'portfolio'), {
-			// ./-->>
+			name: 'Los Angeles',
+			state: 'CA',
+			country: 'USA',
 		});
+		console.log(res.id);
 	};
 	// useEffect(() => {
 	// 	db.collection('portfolio').onSnapshot((snapshot) =>
@@ -19,7 +22,6 @@ const AboutInfo = () => {
 	return (
 		<div className='aboutInfo'>
 			{portfolios.map((portfolia) => {
-				console.log(portfolios);
 				<>
 					<div className='side1'>
 						<img src={portfolia.image} alt='me image' />
