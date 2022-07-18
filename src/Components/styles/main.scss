@@ -7,6 +7,7 @@ body {
 html {
 	overflow-x: hidden;
 }
+// nav
 nav {
 	padding: 15px 80px;
 	animation: animNav 1s ease;
@@ -39,6 +40,7 @@ nav {
 		}
 	}
 }
+// nav-fixed
 nav.fixed {
 	padding: 15px 80px !important;
 	position: fixed;
@@ -49,4 +51,21 @@ nav.fixed {
 	backdrop-filter: blur(10px);
 	background-color: #000000cf;
 	box-shadow: 0 5 15 #0c0c0cde;
+}
+.avatar {
+	border-radius: 50%;
+}
+.aboutinfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	padding: 70px;
+	.aboutinfo-1 {
+		width: 55%;
+		margin: 20px 0;
+	}
+	.title {
+		font-size: 70px;
+		font-family: 'Montserrant', sans-serif;
+	}
 }

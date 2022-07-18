@@ -5,16 +5,21 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
-import Telegram from '@mui/icons-material/Telegram';
 const AboutInfo = () => {
 	return (
-		<div className='aboutInfo'>
-			<div>
-				<img src={farrukh} alt='Hero Farrukh Musratov' />
+		<div className='aboutinfo'>
+			<div className='aboutinfo-1'>
+				<img
+					className='avatar'
+					width={300}
+					height={300}
+					src={farrukh}
+					alt='Hero Farrukh Musratov'
+				/>
 			</div>
-			<div>
-				<h2>Hi, I'm Farrukh</h2>
-				<p>
+			<div className='aboutinfo-2'>
+				<h2 className='title'>Hi, I'm Farrukh</h2>
+				<p className='description'>
 					21 y.o Frontend developer Strong Junior Software enginer at
 					FenixSoft Company
 				</p>
