@@ -27,7 +27,7 @@ const AboutInfo = () => {
 					<Link className='linkBtn' to='/'>
 						About me
 					</Link>
-					<Link className='linkBtn' to='/'>
+					<Link className='linkBtn' to='/portfolio'>
 						Portfolio
 					</Link>
 				</div>

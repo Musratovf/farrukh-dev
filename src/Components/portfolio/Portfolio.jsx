@@ -1,7 +1,12 @@
 import React from 'react';
-
+import NavSection from '../home/NavSection';
 const Portfolio = () => {
-	return <div>Portfolio</div>;
+	return (
+		<>
+			<NavSection />
+			Portfolio
+		</>
+	);
 };
 
 export default Portfolio;
