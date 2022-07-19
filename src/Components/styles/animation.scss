@@ -1,3 +1,15 @@
+// Home page texts Animation
+@keyframes fadeInUp {
+	from {
+		transform: translateY(60px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
 // Navbar animation
 @keyframes animNav {
 	from {
