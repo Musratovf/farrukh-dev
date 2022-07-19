@@ -35,13 +35,22 @@ const AboutInfo = () => {
 					<a className='socialLink' href='#' target={'_blank'}>
 						<YouTubeIcon className='svgIcon' />
 					</a>
-					<a className='socialLink' href='#' target={'_blank'}>
+					<a
+						className='socialLink'
+						href='https://github.com/Musratovf'
+						target={'_blank'}>
 						<GitHubIcon className='svgIcon' />
 					</a>
-					<a className='socialLink' href='#' target={'_blank'}>
+					<a
+						className='socialLink'
+						href='https://www.instagram.com/farrux_musratov/'
+						target={'_blank'}>
 						<InstagramIcon className='svgIcon' />
 					</a>
-					<a className='socialLink' href='#' target={'_blank'}>
+					<a
+						className='socialLink'
+						href='https://t.me/Farrux_Musratov'
+						target={'_blank'}>
 						<TelegramIcon className='svgIcon' />
 					</a>
 				</div>
