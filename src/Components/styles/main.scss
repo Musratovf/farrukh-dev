@@ -147,5 +147,30 @@ nav.fixed {
 	animation: PortfolioAnimations 1s ease;
 }
 .portfolio-img {
-	width: 100%;
+	width: 50%;
+}
+.row {
+	.col-md-12 {
+		padding-top: 50px;
+		.projectCard {
+			display: flex;
+			justify-content: space-between;
+			margin: 50px 0;
+			.ProjectTitles {
+				margin: 30px 50px;
+				.projectAbout {
+					.projectName {
+						color: #ffffff;
+						font-weight: 600;
+						font-family: 'Montserrat', sans-serif;
+					}
+					.projectDesc {
+						color: #aaaaaa;
+						margin: 10px 0 50px;
+						font-family: 'Montserrat', sans-serif;
+					}
+				}
+			}
+		}
+	}
 }

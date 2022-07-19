@@ -10,21 +10,18 @@ const Project = () => {
 			<Container>
 				<Row>
 					<Col md='12'>
-						<div className='projecrCard'>
+						<div className='projectCard'>
 							<img
 								className='portfolio-img'
 								src={YoutubeClone}
 								alt='Portfolio Image'
 							/>
-							<img
-								className='portfolio-img'
-								src={YoutubeClone}
-								alt='Portfolio Image'
-							/>
-							<div className='cardSide'>
-								<div className='ProjectAbout'>
-									<h3>Toshkent yoshlarni sevadi</h3>
-									<p>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>
+										Toshkent yoshlarni sevadi
+									</h3>
+									<p className='projectDesc'>
 										Toshkent yoshlarni sevadi festivalining
 										web sayti
 									</p>
