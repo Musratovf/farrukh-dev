@@ -11,10 +11,10 @@ const AboutInfo = () => {
 			<div className='aboutinfo-1'>
 				<img
 					className='avatar'
-					width={300}
-					height={300}
+					width={450}
+					height={450}
 					src={farrukh}
-					alt='Hero Farrukh Musratov'
+					alt='Hero Farrukh Musratov :)'
 				/>
 			</div>
 			<div className='aboutinfo-2'>
