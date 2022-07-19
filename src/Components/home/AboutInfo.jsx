@@ -32,17 +32,17 @@ const AboutInfo = () => {
 					</Link>
 				</div>
 				<div className='socialNet'>
-					<a href='#' target={'_blank'}>
-						<YouTubeIcon />
+					<a className='socialLink' href='#' target={'_blank'}>
+						<YouTubeIcon className='svgIcon' />
 					</a>
-					<a href='#' target={'_blank'}>
-						<GitHubIcon />
+					<a className='socialLink' href='#' target={'_blank'}>
+						<GitHubIcon className='svgIcon' />
 					</a>
-					<a href='#' target={'_blank'}>
-						<InstagramIcon />
+					<a className='socialLink' href='#' target={'_blank'}>
+						<InstagramIcon className='svgIcon' />
 					</a>
-					<a href='#' target={'_blank'}>
-						<TelegramIcon />
+					<a className='socialLink' href='#' target={'_blank'}>
+						<TelegramIcon className='svgIcon' />
 					</a>
 				</div>
 			</div>

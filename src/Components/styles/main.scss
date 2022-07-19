@@ -1,5 +1,9 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+$homeButtonColor: #2b2b2b;
+$homeButtonColor2: #faff00;
+$socialIcons: #faff00;
+
 body {
 	background-color: #000000 !important;
 	overflow-x: hidden;
@@ -67,5 +71,40 @@ nav.fixed {
 	.title {
 		font-size: 70px;
 		font-family: 'Montserrant', sans-serif;
+		color: #ffffff;
+		font-weight: 700;
+	}
+	.description {
+		width: 75%;
+		margin: 15px 3px 60px;
+		font-size: 20px;
+	}
+	.buttons {
+		.linkBtn {
+			background-color: $homeButtonColor;
+			padding: 17px 40px;
+			color: #ffffff;
+			font-size: 20px;
+			text-decoration: none;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500px;
+			&:nth-child(2) {
+				margin-left: 20px;
+				background-color: $homeButtonColor2;
+				color: #000000;
+			}
+		}
+	}
+	.socialNet {
+		.socialLink {
+			padding: 0 30px 0 0;
+			.svgIcon {
+				font-size: 35px;
+				color: #ffffff;
+				&:hover {
+					color: $socialIcons;
+				}
+			}
+		}
 	}
 }
