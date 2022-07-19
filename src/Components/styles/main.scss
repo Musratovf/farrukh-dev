@@ -4,6 +4,23 @@ $homeButtonColor: #2b2b2b;
 $homeButtonColor2: #faff00;
 $socialIcons: #faff00;
 
+// Mixins
+@mixin PageTitle {
+	font-size: 45px;
+	margin: 0;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+@mixin PageTitle2 {
+	font-size: 30px;
+	margin: 0;
+	color: $homeButtonColor2;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.7px;
+}
+
 body {
 	background-color: #000000 !important;
 	overflow-x: hidden;
@@ -111,5 +128,17 @@ nav.fixed {
 				}
 			}
 		}
+	}
+}
+.titles {
+	text-align: center;
+	margin-top: 75px;
+	.title1 {
+		@include PageTitle();
+		animation: fadeInUp 1s ease;
+	}
+	.title2 {
+		@include PageTitle2();
+		animation: fadeInUp 1s ease;
 	}
 }
