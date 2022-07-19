@@ -21,3 +21,15 @@
 		opacity: 1;
 	}
 }
+
+// Portfolio animations
+@keyframes PortfolioAnimations {
+	from {
+		transform: translateY(90px);
+		opacity: 0.3;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
