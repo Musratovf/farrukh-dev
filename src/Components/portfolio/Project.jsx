@@ -11,7 +11,7 @@ const Project = () => {
 		<>
 			<Container>
 				<Row>
-					<Col md='12'>
+					<Col className='col' md='12'>
 						<div className='projectCard'>
 							<img
 								className='portfolio-img'

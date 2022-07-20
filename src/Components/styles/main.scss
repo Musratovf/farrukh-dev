@@ -209,3 +209,25 @@ nav.fixed {
 		}
 	}
 }
+.col {
+	margin-bottom: 30px;
+}
+// Footer
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	margin-top: 130px;
+	padding: 20px 0 0;
+	border-top: 1px solid #aaaaaa;
+	text-align: center;
+	backdrop-filter: blur(20px);
+	p {
+		font-size: 20px;
+		color: #ffffff;
+		font-family: 'Montserrat', sans-serif;
+		svg {
+			color: rgb(255, 0, 0);
+		}
+	}
+}
