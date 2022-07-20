@@ -1,9 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import InsertLinkIcon from '@mui/icons-material/InsertLink';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import YoutubeClone from '../imgs/toshkent-yoshlarni-sevadi.png';
+import ToshkentLoves from '../imgs/toshkent-yoshlarni-sevadi.png';
 import InsertLink from '@mui/icons-material/InsertLink';
+import TokarMebel from '../imgs/tokar-mebel.png';
+import GithubApi from '../imgs/github-api.png';
 const Project = () => {
 	return (
 		<>
@@ -13,7 +14,7 @@ const Project = () => {
 						<div className='projectCard'>
 							<img
 								className='portfolio-img'
-								src={YoutubeClone}
+								src={ToshkentLoves}
 								alt='Portfolio Image'
 							/>
 							<div className='ProjectTitles'>
@@ -28,12 +29,74 @@ const Project = () => {
 								</div>
 								<div className='projectButtons'>
 									<a
-										href='https://github.com/Musratovf'
+										className='buttons'
+										href='https://github.com/Musratovf/Toshkent-yoshlarni-sevadi'
 										target={'_blank'}>
 										Source <GitHubIcon />
 									</a>
 									<a
+										className='buttons'
 										href='https://tashkent-yoshlarni-sevadi.netlify.app/'
+										target={'_blank'}>
+										Demo <InsertLink />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className='projectCard'>
+							<img
+								className='portfolio-img'
+								src={TokarMebel}
+								alt='tokar mebel Image'
+							/>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>
+										Tokar mebel Web site
+									</h3>
+									<p className='projectDesc'>
+										Tokar Furniture Factory website
+									</p>
+								</div>
+								<div className='projectButtons'>
+									<a
+										className='buttons'
+										href='https://github.com/Musratovf/Tokar-Mebel'
+										target={'_blank'}>
+										Source <GitHubIcon />
+									</a>
+									<a
+										className='buttons'
+										href='https://tokar-mebel.netlify.app/'
+										target={'_blank'}>
+										Demo <InsertLink />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className='projectCard'>
+							<img
+								className='portfolio-img'
+								src={GithubApi}
+								alt='Github clone api img'
+							/>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>Github Api</h3>
+									<p className='projectDesc'>
+										Github API clone
+									</p>
+								</div>
+								<div className='projectButtons'>
+									<a
+										className='buttons'
+										href='https://github.com/Musratovf/Github-Api'
+										target={'_blank'}>
+										Source <GitHubIcon />
+									</a>
+									<a
+										className='buttons'
+										href='https://githubs-api-search.netlify.app/'
 										target={'_blank'}>
 										Demo <InsertLink />
 									</a>
