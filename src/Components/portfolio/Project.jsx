@@ -5,6 +5,7 @@ import ToshkentLoves from '../imgs/toshkent-yoshlarni-sevadi.png';
 import InsertLink from '@mui/icons-material/InsertLink';
 import TokarMebel from '../imgs/tokar-mebel.png';
 import GithubApi from '../imgs/github-api.png';
+import MaterialUi from '../imgs/material-ui-portfolio.png';
 const Project = () => {
 	return (
 		<>
@@ -97,6 +98,35 @@ const Project = () => {
 									<a
 										className='buttons'
 										href='https://githubs-api-search.netlify.app/'
+										target={'_blank'}>
+										Demo <InsertLink />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className='projectCard'>
+							<img
+								className='portfolio-img'
+								src={MaterialUi}
+								alt='Github clone api img'
+							/>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>Material Ui</h3>
+									<p className='projectDesc'>
+										Material Ui Web site{' '}
+									</p>
+								</div>
+								<div className='projectButtons'>
+									<a
+										className='buttons'
+										href='https://github.com/Musratovf/react-portfolio'
+										target={'_blank'}>
+										Source <GitHubIcon />
+									</a>
+									<a
+										className='buttons'
+										href='https://farrukh-dev.netlify.app/'
 										target={'_blank'}>
 										Demo <InsertLink />
 									</a>

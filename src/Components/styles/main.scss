@@ -153,6 +153,7 @@ nav.fixed {
 	.col-md-12 {
 		padding-top: 50px;
 		.projectCard {
+			animation: fadeInUp 1s ease;
 			display: flex;
 			justify-content: space-between;
 			margin: 50px 0;
@@ -190,6 +191,18 @@ nav.fixed {
 							color: #000000;
 							margin-left: 30px;
 						}
+					}
+				}
+			}
+		}
+
+		.projectCard:nth-child(even) {
+			flex-direction: row-reverse;
+			.ProjectTitles {
+				margin: 30px 0;
+				.projectAbout {
+					.projectDesc {
+						width: 75%;
 					}
 				}
 			}
