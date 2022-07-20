@@ -4,7 +4,7 @@ const footer = () => {
 	return (
 		<div className='footer'>
 			<p>
-				@ Farrukh - {new Date().getFullYear()} | Made with{' '}
+				@ Farrukh - 2020 - {new Date().getFullYear()} | Made with{' '}
 				<FavoriteIcon />
 			</p>
 		</div>

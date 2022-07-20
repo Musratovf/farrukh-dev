@@ -6,6 +6,8 @@ import InsertLink from '@mui/icons-material/InsertLink';
 import TokarMebel from '../imgs/tokar-mebel.png';
 import GithubApi from '../imgs/github-api.png';
 import MaterialUi from '../imgs/material-ui-portfolio.png';
+import TwitterClone from '../imgs/twitter-clone.png';
+import YoutubeClone from '../imgs/youtube-clone.png';
 const Project = () => {
 	return (
 		<>
@@ -127,6 +129,68 @@ const Project = () => {
 									<a
 										className='buttons'
 										href='https://farrukh-dev.netlify.app/'
+										target={'_blank'}>
+										Demo <InsertLink />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className='projectCard'>
+							<img
+								className='portfolio-img'
+								src={TwitterClone}
+								alt='Github clone api img'
+							/>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>
+										Twitter clone
+									</h3>
+									<p className='projectDesc'>
+										Twitter clone web Application
+									</p>
+								</div>
+								<div className='projectButtons'>
+									<a
+										className='buttons'
+										href='https://github.com/Musratovf/portfolia-twitter'
+										target={'_blank'}>
+										Source <GitHubIcon />
+									</a>
+									<a
+										className='buttons'
+										href='https://twitter-by-kvmvkxnt.netlify.app/'
+										target={'_blank'}>
+										Demo <InsertLink />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className='projectCard'>
+							<img
+								className='portfolio-img'
+								src={YoutubeClone}
+								alt='Github clone api img'
+							/>
+							<div className='ProjectTitles'>
+								<div className='projectAbout'>
+									<h3 className='projectName'>
+										Youtube Clone
+									</h3>
+									<p className='projectDesc'>
+										Youtube clone web Application
+									</p>
+								</div>
+								<div className='projectButtons'>
+									<a
+										className='buttons'
+										href='https://github.com/Musratovf/YouTube'
+										target={'_blank'}>
+										Source <GitHubIcon />
+									</a>
+									<a
+										className='buttons'
+										href='https://you-tube-clone-exam.netlify.app/'
 										target={'_blank'}>
 										Demo <InsertLink />
 									</a>
