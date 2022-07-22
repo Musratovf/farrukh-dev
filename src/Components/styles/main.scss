@@ -24,12 +24,24 @@ $socialIcons: #faff00;
 	ul {
 		a {
 			display: flex;
+			align-items: center;
 			text-decoration: none;
 			cursor: pointer;
 			svg {
 				color: #ffffff;
 				font-size: 30px;
 				margin: 0 5px;
+				transition: 0.3s ease;
+				-webkit-transition: 0.3s ease;
+				-moz-transition: 0.3s ease;
+			}
+			h2 {
+				font-family: 'Montserrat', sans-serif;
+				color: #ffffff;
+				font-weight: 600;
+			}
+			&:hover svg {
+				transform: rotate(25deg);
 			}
 		}
 	}
