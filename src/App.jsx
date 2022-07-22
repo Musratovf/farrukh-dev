@@ -9,7 +9,7 @@ function Routing() {
 	return (
 		<>
 			<Routes>
-				<Route path='/home' element={<Home />} />
+				<Route path='/' element={<Home />} />
 				<Route path='/portfolio' element={<Portfolio />} />
 				<Route path='/setup' element={<SetupMain />} />
 			</Routes>

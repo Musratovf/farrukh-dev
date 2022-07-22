@@ -33,7 +33,7 @@ const NavSection = () => {
 				<Collapse isOpen={isOpen} navbar>
 					<Nav navbar>
 						<NavItem>
-							<Link to='/home'>Home</Link>
+							<Link to='/'>Home</Link>
 						</NavItem>
 						<NavItem>
 							<Link to='/portfolio'>Portfolio</Link>
