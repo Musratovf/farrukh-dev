@@ -32,7 +32,6 @@ const SetupMain = () => {
 									<li>16GB RAM (15.8 GB usable )</li>
 									<li>HDD 1TB</li>
 									<li>Display FHD 15.8</li>
-									<li></li>
 								</ul>
 							</span>
 							<span className='laptopspaces'>
@@ -40,8 +39,7 @@ const SetupMain = () => {
 									<li>
 										<a href=''>
 											<h2 className='laptopspacesTitle'>
-												Hp pavilion Anyware Plays
-												everywere
+												Hp pavilion Anyware
 											</h2>
 											<ArrowUpwardIcon />
 										</a>
@@ -50,7 +48,6 @@ const SetupMain = () => {
 									<li>16GB RAM (15.8 GB usable )</li>
 									<li>HDD 1TB</li>
 									<li>Display FHD 15.8</li>
-									<li></li>
 								</ul>
 							</span>
 							<span className='keyboarSpaces'>
