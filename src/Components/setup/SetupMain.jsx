@@ -21,7 +21,9 @@ const SetupMain = () => {
 							<span className='laptopspaces'>
 								<ul>
 									<li className='item'>
-										<a href=''>
+										<a
+											target='_blank'
+											href='https://www.kns.ru/product/noutbuk-hp-pavilion-15-eg0128ur/'>
 											<h2 className='laptopspacesTitle'>
 												Hp Laptop
 											</h2>
@@ -37,7 +39,9 @@ const SetupMain = () => {
 							<span className='laptopspaces'>
 								<ul>
 									<li className='item'>
-										<a href=''>
+										<a
+											target={'_blank'}
+											href='https://www.kns.ru/product/noutbuk-hp-pavilion-15-eg0128ur/'>
 											<h2 className='laptopspacesTitle'>
 												Hp Anyware
 											</h2>
