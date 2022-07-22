@@ -53,6 +53,22 @@ $socialIcons: #faff00;
 		}
 	}
 }
+@mixin keyboardSpaces {
+	ul {
+		h2 {
+			font-family: 'Montserrat', sans-serif;
+			color: #ffffff;
+			font-weight: 600;
+		}
+		li {
+			color: $socialIcons;
+			font-family: 'Montserrat', sans-serif;
+			margin: 20px 30px 10px;
+			font-size: 20px;
+			width: 100%;
+		}
+	}
+}
 body {
 	background-color: #000000 !important;
 	overflow-x: hidden;
@@ -280,11 +296,14 @@ nav.fixed {
 			.col-md-8 {
 				.mySetup {
 					padding: 50px 75px;
+					display: grid;
+					grid-template-columns: auto auto;
 					.laptopspaces {
-						display: grid;
-						grid-template-columns: auto auto;
 						margin-bottom: 40px;
 						@include setupSpaces();
+					}
+					.keyboarSpaces {
+						@include keyboardSpaces();
 					}
 				}
 			}
