@@ -20,7 +20,20 @@ $socialIcons: #faff00;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 0.7px;
 }
-
+@mixin setupSpaces {
+	ul {
+		a {
+			display: flex;
+			text-decoration: none;
+			cursor: pointer;
+			svg {
+				color: #ffffff;
+				font-size: 30px;
+				margin: 0 5px;
+			}
+		}
+	}
+}
 body {
 	background-color: #000000 !important;
 	overflow-x: hidden;
@@ -217,7 +230,7 @@ nav.fixed {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
-	margin-top: 130px;
+	margin-top: 200px;
 	padding: 20px 0 0;
 	border-top: 1px solid #aaaaaa;
 	text-align: center;
@@ -230,4 +243,35 @@ nav.fixed {
 			color: rgb(255, 0, 0);
 		}
 	}
+}
+
+// Setup
+.setupMain {
+	.setupImage {
+		display: flex;
+		justify-content: center;
+		img {
+			width: 50%;
+			border-radius: 10px;
+		}
+	}
+	.container {
+		.row {
+			justify-content: center;
+			.col-md-8 {
+				.mySetup {
+					padding: 50px 75px;
+					.laptopspaces {
+						display: grid;
+						grid-template-columns: auto auto;
+						margin-bottom: 40px;
+						@include setupSpaces();
+					}
+				}
+			}
+		}
+	}
+}
+.laptopspacesTitle {
+	display: inline-block;
 }
