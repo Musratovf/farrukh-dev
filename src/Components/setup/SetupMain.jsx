@@ -20,10 +20,10 @@ const SetupMain = () => {
 						<div className='mySetup'>
 							<span className='laptopspaces'>
 								<ul>
-									<li>
+									<li className='item'>
 										<a href=''>
 											<h2 className='laptopspacesTitle'>
-												Hp Pavilion Laptop
+												Hp Laptop
 											</h2>
 											<ArrowUpwardIcon />
 										</a>
@@ -36,10 +36,10 @@ const SetupMain = () => {
 							</span>
 							<span className='laptopspaces'>
 								<ul>
-									<li>
+									<li className='item'>
 										<a href=''>
 											<h2 className='laptopspacesTitle'>
-												Hp pavilion Anyware
+												Hp Anyware
 											</h2>
 											<ArrowUpwardIcon />
 										</a>
@@ -48,14 +48,6 @@ const SetupMain = () => {
 									<li>16GB RAM (15.8 GB usable )</li>
 									<li>HDD 1TB</li>
 									<li>Display FHD 15.8</li>
-								</ul>
-							</span>
-							<span className='keyboarSpaces'>
-								<ul>
-									<li>
-										<h2>Keyboard & Mouse</h2>
-									</li>
-									<li>Auido by</li>
 								</ul>
 							</span>
 						</div>
