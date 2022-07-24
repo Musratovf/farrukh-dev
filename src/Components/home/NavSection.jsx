@@ -42,7 +42,7 @@ const NavSection = () => {
 							<Link to='/setup'>Setup</Link>
 						</NavItem>
 						<NavItem>
-							<Link to='/about-me'>About me</Link>
+							<Link to='/aboutme'>About me</Link>
 						</NavItem>
 					</Nav>
 				</Collapse>

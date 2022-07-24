@@ -12,7 +12,7 @@ function Routing() {
 				<Route path='/' element={<Home />} />
 				<Route path='/portfolio' element={<Portfolio />} />
 				<Route path='/setup' element={<SetupMain />} />
-				<Route path='/about-me' element={<About />} />
+				<Route path='/aboutme' element={<About />} />
 			</Routes>
 		</>
 	);

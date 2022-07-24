@@ -299,3 +299,21 @@ nav.fixed {
 .item {
 	list-style-type: none;
 }
+// about me
+
+.aboutme-main {
+	display: flex;
+	padding: 80px;
+	span {
+		.aboutmeText {
+			padding: 0 0 30px 45px;
+			font-size: 23px;
+			width: 95%;
+			color: #ffffff;
+			font-family: 'Montserrat', sans-serif;
+			div {
+				padding: 30px 0 30px;
+			}
+		}
+	}
+}
