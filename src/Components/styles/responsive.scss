@@ -1,6 +1,74 @@
-//  Home
+//  Home page responsive
 $togglerMenu: #faff00;
-@media (min-width: 320px) and (max-width: 330px) {
+
+@media screen and (max-width: 500px) {
+	nav {
+		padding: 12px;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerMenu;
+			border-radius: 0;
+			span {
+				font-size: 15px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 20px 0;
+				font-size: 17px;
+				text-align: center;
+				line-height: 10px;
+			}
+		}
+	}
+	.aboutinfo {
+		display: inline-block;
+		padding: 0;
+		.aboutinfo-1 {
+			display: flex;
+			justify-content: center;
+			margin: 10px auto;
+		}
+		.aboutinfo-2 {
+			text-align: center;
+			width: 100%;
+			h2 {
+				font-size: 27px !important;
+			}
+			p {
+				font-size: 15px !important;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 10px 10px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				margin-bottom: 80px;
+				.socialLink {
+					padding: 0 10px 0 10px;
+				}
+			}
+		}
+		.avatar {
+			width: 250px;
+			height: 250px;
+		}
+	}
+	.footer {
+		p {
+			font-size: 15px;
+		}
+	}
+}
+@media screen and (max-width: 370px) {
 	nav {
 		padding: 12px;
 		.navbar-brand {
@@ -30,6 +98,72 @@ $togglerMenu: #faff00;
 			display: flex;
 			justify-content: center;
 			margin: 10px auto;
+		}
+		.aboutinfo-2 {
+			text-align: center;
+			width: 100%;
+			h2 {
+				font-size: 27px !important;
+			}
+			p {
+				font-size: 15px !important;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 10px 10px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				margin-bottom: 80px;
+				.socialLink {
+					padding: 0 10px 0 10px;
+				}
+			}
+		}
+		.avatar {
+			width: 250px;
+			height: 250px;
+		}
+	}
+	.footer {
+		p {
+			font-size: 15px;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 330px) {
+	nav {
+		padding: 12px;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerMenu;
+			border-radius: 0;
+			span {
+				font-size: 15px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 20px 0;
+				font-size: 17px;
+				text-align: center;
+				line-height: 10px;
+			}
+		}
+	}
+	.aboutinfo {
+		display: inline-block;
+		padding: 0;
+		.aboutinfo-1 {
+			display: flex;
+			justify-content: center;
 		}
 		.aboutinfo-2 {
 			text-align: center;
