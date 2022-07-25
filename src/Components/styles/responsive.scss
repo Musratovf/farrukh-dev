@@ -23,4 +23,19 @@ $togglerMenu: #faff00;
 			}
 		}
 	}
+	.aboutinfo {
+		display: inline;
+		padding: 0;
+		.aboutinfo-2 {
+			text-align: center;
+			width: 100%;
+			h2 {
+				font-size: 27px !important;
+			}
+		}
+		.avatar {
+			width: 250px;
+			height: 250px;
+		}
+	}
 }
