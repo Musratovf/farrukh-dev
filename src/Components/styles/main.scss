@@ -265,7 +265,6 @@ nav.fixed {
 		}
 	}
 }
-
 // Setup
 .setupMain {
 	.setupImage {
@@ -303,7 +302,8 @@ nav.fixed {
 
 .aboutme-main {
 	display: flex;
-	padding: 80px;
+	align-items: center;
+	padding: 85px;
 	span {
 		.aboutmeText {
 			padding: 0 0 30px 45px;

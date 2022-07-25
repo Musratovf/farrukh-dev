@@ -4,7 +4,12 @@ const Main = () => {
 	return (
 		<div className='aboutme-main'>
 			<>
-				<img width={200} src={MyImg} alt='My information img' />
+				<img
+					width={400}
+					height={400}
+					src={MyImg}
+					alt='My information img'
+				/>
 			</>
 			<span>
 				<p className='aboutmeText'>
