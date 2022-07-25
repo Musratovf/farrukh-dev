@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './Components/styles/main.scss';
 import './Components/styles/animation.scss';
+import './Components/styles/responsive.scss';
 import Home from './Components/home/Home';
 import Portfolio from './Components/portfolio/Portfolio';
 import SetupMain from './Components/setup/Setup';

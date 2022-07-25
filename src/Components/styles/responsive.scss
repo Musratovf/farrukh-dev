@@ -1,0 +1,26 @@
+//  Home
+$togglerMenu: #faff00;
+@media (min-width: 320px) and (max-width: 330px) {
+	nav {
+		padding: 12px;
+		.navbar-brand {
+			font-size: 18px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerMenu;
+			border-radius: 0;
+			span {
+				font-size: 15px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 20px 0;
+				font-size: 17px;
+				text-align: center;
+				line-height: 10px;
+			}
+		}
+	}
+}
