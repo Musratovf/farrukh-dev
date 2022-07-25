@@ -32,7 +32,10 @@ const AboutInfo = () => {
 					</Link>
 				</div>
 				<div className='socialNet'>
-					<a className='socialLink' href='#' target={'_blank'}>
+					<a
+						className='socialLink'
+						href='https://www.youtube.com/channel/UCY1r0oBGwfZ6eGXYaAJ5z5g'
+						target={'_blank'}>
 						<YouTubeIcon className='svgIcon' />
 					</a>
 					<a

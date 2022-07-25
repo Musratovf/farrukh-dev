@@ -26,16 +26,44 @@ $togglerMenu: #faff00;
 	.aboutinfo {
 		display: inline;
 		padding: 0;
+		.aboutinfo-1 {
+			display: flex;
+			justify-content: center;
+			margin: 10px auto;
+		}
 		.aboutinfo-2 {
 			text-align: center;
 			width: 100%;
 			h2 {
 				font-size: 27px !important;
 			}
+			p {
+				font-size: 15px !important;
+				width: 100%;
+				padding: 0 15px;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 10px 10px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				margin-bottom: 80px;
+				.socialLink {
+					padding: 0 10px 0 10px;
+				}
+			}
 		}
 		.avatar {
 			width: 250px;
 			height: 250px;
+		}
+	}
+	.footer {
+		p {
+			font-size: 15px;
 		}
 	}
 }
