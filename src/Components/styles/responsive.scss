@@ -17,23 +17,20 @@ $togglerMenu: #faff00;
 		}
 		.navbar-nav {
 			.nav-item {
-				margin: 20px 0;
-				font-size: 17px;
+				margin: 20px 20px;
+				font-size: 20px;
 				text-align: center;
 				line-height: 10px;
 			}
 		}
 	}
 	.aboutinfo {
-		display: inline-block;
-		padding: 0;
+		display: flex;
+		padding: 75px 30px;
 		.aboutinfo-1 {
-			display: flex;
-			justify-content: center;
 			margin: 10px auto;
 		}
 		.aboutinfo-2 {
-			text-align: center;
 			width: 100%;
 			h2 {
 				font-size: 27px !important;
@@ -41,7 +38,6 @@ $togglerMenu: #faff00;
 			p {
 				font-size: 15px !important;
 				width: 100%;
-				padding: 0 15px;
 				margin: 15px 0 25px;
 			}
 			.buttons {
