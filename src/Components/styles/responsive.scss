@@ -433,9 +433,10 @@ $togglerMenu: #faff00;
 				.projectButtons {
 					a {
 						padding: 8px 10px !important;
-						font-size: 15px !important;
+						font-size: 13 px !important;
+						background-color: red;
 						&:nth-child(2) {
-							margin-left: 30px !important;
+							margin-left: 13px !important;
 						}
 					}
 				}
@@ -468,12 +469,11 @@ $togglerMenu: #faff00;
 	.row {
 		.col-md-12 {
 			.projectCard {
-				display: flex;
 				.portfolio-img {
 					width: 100% !important;
 				}
 				.ProjectTitles {
-					margin: 30px 50px;
+					margin: 30px 0;
 					.projectAbout {
 						.projectName {
 							font-size: 25px !important;
@@ -521,6 +521,7 @@ $togglerMenu: #faff00;
 		.col-md-12 {
 			padding-top: 0;
 			.projectCard {
+				margin: 20px 0;
 				display: inline-block;
 				.portfolio-img {
 					width: 100% !important;
