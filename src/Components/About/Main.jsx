@@ -17,9 +17,9 @@ const Main = () => {
 					Uzbekistan, and currently i'm living in Samarqand region,
 					Payarik. So I started learning Frontend development since
 					2020 years from Najot Ta'lim Academy
-					<div>
+					<>
 						<b>Why I chose Frontend?</b>
-					</div>
+					</>
 					Obcaecati velit nobis beatae, vero esse aliquid sed quaerat.
 					Impedit, laudantium.
 				</p>
