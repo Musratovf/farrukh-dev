@@ -1,11 +1,73 @@
 //  Home page responsive
 $togglerMenu: #faff00;
-
+@media screen and (max-width: 1200px) {
+	nav {
+		padding: 12px;
+		.navbar-brand {
+			font-size: 20px;
+			padding: 0 10px;
+		}
+		.navbar-toggler {
+			background-color: $togglerMenu;
+			border-radius: 0;
+			span {
+				font-size: 15px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				margin: 20px 20px;
+				font-size: 20px;
+				text-align: center;
+				line-height: 10px;
+			}
+		}
+	}
+	.aboutinfo {
+		display: flex;
+		padding: 75px 30px;
+		.aboutinfo-1 {
+			margin: 10px auto;
+		}
+		.aboutinfo-2 {
+			width: 100%;
+			h2 {
+				font-size: 27px !important;
+			}
+			p {
+				font-size: 15px !important;
+				width: 100%;
+				margin: 15px 0 25px;
+			}
+			.buttons {
+				.linkBtn {
+					padding: 10px 10px;
+					font-size: 15px;
+				}
+			}
+			.socialNet {
+				margin-bottom: 80px;
+				.socialLink {
+					padding: 0 10px 0 10px;
+				}
+			}
+		}
+		.avatar {
+			width: 250px;
+			height: 250px;
+		}
+	}
+	.footer {
+		p {
+			font-size: 15px;
+		}
+	}
+}
 @media screen and (max-width: 1024px) {
 	nav {
 		padding: 12px;
 		.navbar-brand {
-			font-size: 18px;
+			font-size: 20px;
 			padding: 0 10px;
 		}
 		.navbar-toggler {
